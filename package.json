@@ -4,7 +4,7 @@
     "start": "dotenv -- nodemon -e ts,graphql -x ts-node src/index.ts",
     "debug": "dotenv -- nodemon -e ts,graphql -x ts-node --inspect src/index.ts",
     "build": "rimraf dist && tsc",
-    "lint": "prettier --write ./src/**/*.{ts,js,css,html,svelte}"
+    "lint": "prettier --write ./src/**/*.{ts,js}"
   },
   "dependencies": {
     "bcryptjs": "2.4.3",

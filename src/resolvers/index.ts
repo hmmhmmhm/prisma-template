@@ -6,12 +6,12 @@ import { User } from './User'
 import { Post } from './Post'
 
 export default {
-  Query,
-  Mutation: {
-    ...auth,
-    ...post,
-  },
-  Subscription,
-  User,
-  Post,
+    Query,
+    Mutation: {
+        ...auth,
+        ...post,
+    },
+    Subscription,
+    User,
+    Post,
 }
